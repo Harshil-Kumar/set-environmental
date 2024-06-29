@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.h-screen {
+  height: 100vh;
+}
+
+.bg-cover {
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.hover\\:scale-105:hover {
+    transform: scale(1.05);
+  }
