@@ -19,7 +19,7 @@ const ServiceCard: React.FC = () => {
       slug: 'service2',
     },
     {
-      title: 'Service 3',
+      title: 'Service 50',
       imageUrl: '/images/3.webp', // Replace with your actual image URL
       slug: 'service3',
     },
