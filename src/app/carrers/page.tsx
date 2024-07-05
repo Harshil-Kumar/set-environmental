@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-const Service1Page: React.FC = () => {
+const CarrersPage: React.FC = () => {
   return (
     <div>
       <h1>Carrers Page</h1>
@@ -11,4 +11,4 @@ const Service1Page: React.FC = () => {
   );
 };
 
-export default Service1Page;
+export default CarrersPage;
