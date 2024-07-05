@@ -33,7 +33,7 @@ const AboutUs: React.FC = () => {
           <div className="text-center flex justify-center mt-8">
             <button
               onClick={handleContactUsClick}
-              className="bg-cyan-500 hover:bg-cyan-700 text-white py-2 px-4 rounded"
+              className="bg-cyan-500 hover:bg-cyan-700 text-white py-2 px-4 transform transition-transform duration-300 hover:scale-105 rounded"
             >
               Learn More
             </button>

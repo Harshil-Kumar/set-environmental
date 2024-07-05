@@ -4,6 +4,7 @@ import AboutUs from '../components/AboutUs';
 import ContactUs from '../components/ContactUs';
 import ServiceCard from '../components/ServiceCard'; // Import ServiceCard component
 import CustomerReviews from '@/components/CustomerReviews';
+import ProjectCard from '@/components/ProjectCard';
 
 
 const Home: React.FC = () => {
@@ -11,8 +12,9 @@ const Home: React.FC = () => {
       <div>
         <HeroSection />
         <AboutUs />
-        <CustomerReviews />
         <ServiceCard />
+        <CustomerReviews />
+        <ProjectCard />
         <ContactUs />
       </div>
   );

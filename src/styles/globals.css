@@ -15,3 +15,14 @@
 .hover\\:scale-105:hover {
     transform: scale(1.05);
   }
+
+/* styles.module.css */
+.bg-image {
+    background-image: url('/images/wwww.jpeg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 50vh;
+    color: white; /* Optional: To make text more readable on the background image */
+  }
+  

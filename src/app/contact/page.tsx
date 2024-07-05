@@ -1,13 +1,10 @@
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
-import ContactForm from '../../components/ContactForm';
+import ContactUs from '@/components/ContactUs';
 
 const Contact = () => {
   return (
-    <div>
-      <main className="container mx-auto py-12">
-        <h1 className="text-4xl font-bold mb-6">Contact Us</h1>
-        <ContactForm />
+    <div className="bg-blue-50 h-fit flex items-center justify-center">
+      <main className="w-full">
+        <ContactUs />
       </main>
     </div>
   );
