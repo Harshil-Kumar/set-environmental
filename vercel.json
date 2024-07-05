@@ -1,5 +1,10 @@
 {
-    "builds": [{ "src": "package.json", "use": "npm run dev" }],
-    "routes": [{ "src": "/(.*)", "dest": "package.json" }]
+    "version": 2,
+    "builds": [
+      { "src": "package.json", "use": "npm run dev" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "package.json" }
+    ]
   }
   
